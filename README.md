@@ -3,9 +3,11 @@
 We prove the exact maximum for **six points** in the complex plane whose
 pairwise distances are at most 2:
 
-$$\max_{\substack{z_0,\ldots,z_5\in\mathbb{C}\\|z_i-z_j|\leq 2}}
+```math
+\max_{\substack{z_0,\ldots,z_5\in\mathbb{C}\\|z_i-z_j|\leq 2}}
 \prod_{0\leq i<j<6}|z_i-z_j|^2
-=64(2\sqrt3-2)^{18}.$$
+=64(2\sqrt3-2)^{18}.
+```
 
 The theorem covers every labelled complex sextuple, including repeated
 points, and proves both the universal upper bound and attainment. It does
@@ -16,7 +18,9 @@ general all-n Erdős problem #1045. It does not classify every equality case.**
 
 An attaining configuration, conjectured by Quanyu Tang before this work, is
 
-$$(-1,0),\ (1,0),\ (0,\sqrt3),\ (0,\sqrt3-2),\ (\sqrt3-1,1),\ (1-\sqrt3,1).$$
+```math
+(-1,0),\ (1,0),\ (0,\sqrt3),\ (0,\sqrt3-2),\ (\sqrt3-1,1),\ (1-\sqrt3,1).
+```
 
 ## Proof and source package
 
