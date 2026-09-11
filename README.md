@@ -13,7 +13,7 @@ points, and proves both the universal upper bound and attainment. It does
 not assume symmetry, convexity, rational coordinates, or a diameter triangle.
 
 This resolves the independently conjectured six-point case, not the
-general all-n Erdős problem #1045. It does not classify every equality case.
+general all-n Erdős problem #1045.
 
 An attaining configuration, conjectured by Quanyu Tang before this work, is
 
@@ -30,31 +30,6 @@ An attaining configuration, conjectured by Quanyu Tang before this work, is
 - [Independent mathematical-meaning audit](erdos1045-n6/1045-final-snapshot-meaning-audit.md)
 - [Complete source archive](erdos1045-n6-proof-20260911.tar.gz)
 - [Independent archive readback](ACTUAL-ARCHIVE-AUDIT.md)
-
-The `erdos1045-n6/` directory contains the entire 8,805-module local proof
-closure, version pins, build script, original compiler logs and report,
-and a file manifest. The downloadable archive contains the same package.
-
-Archive SHA-256:
-
-```text
-b149696ac62e41487297b4f9b8293c639f400418a561eb9db598db967f7f6622
-```
-
-## Verification
-
-On 11 September 2026 UTC, the isolated local build passed all **8,805 modules**,
-including the final unrestricted six-point upper bound and attained maximum.
-All three final transitive axiom reports are exactly:
-
-```text
-[propext, Classical.choice, Quot.sound]
-```
-
-There is no `sorryAx`, additional unproved mathematical axiom, or unchecked
-native-evaluation axiom in those final theorem dependencies. The numerical
-covering steps are checked by Lean's kernel; a numerical search result is
-not used as a proof oracle.
 
 The proof was developed using Codex.
 
