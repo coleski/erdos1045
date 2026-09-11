@@ -12,8 +12,8 @@ The theorem covers every labelled complex sextuple, including repeated
 points, and proves both the universal upper bound and attainment. It does
 not assume symmetry, convexity, rational coordinates, or a diameter triangle.
 
-**Scope: this resolves the independently conjectured six-point case, not the
-general all-n Erdős problem #1045. It does not classify every equality case.**
+This resolves the independently conjectured six-point case, not the
+general all-n Erdős problem #1045. It does not classify every equality case.
 
 An attaining configuration, conjectured by Quanyu Tang before this work, is
 
@@ -56,10 +56,7 @@ native-evaluation axiom in those final theorem dependencies. The numerical
 covering steps are checked by Lean's kernel; a numerical search result is
 not used as a proof oracle.
 
-The proof was developed using Codex with collaborating AI agents under the
-direction of `coleski`. Independent reviews here mean separate-agent reviews,
-not external human peer review. Expert scrutiny is welcome. **No Jig acceptance,
-independent remote build, or external referee approval is claimed.**
+The proof was developed using Codex.
 
 ## Reproduce
 
