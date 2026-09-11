@@ -4,8 +4,7 @@ We prove the exact maximum for **six points** in the complex plane whose
 pairwise distances are at most 2:
 
 ```math
-\max_{\substack{z_0,\ldots,z_5\in\mathbb{C}\\|z_i-z_j|\leq 2}}
-\prod_{0\leq i<j<6}|z_i-z_j|^2
+\max \prod_{0\leq i<j<6}\lvert z_i-z_j\rvert^2
 =64(2\sqrt3-2)^{18}.
 ```
 
