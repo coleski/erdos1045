@@ -1,0 +1,1 @@
+'Erdos1045N6.star_tree_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

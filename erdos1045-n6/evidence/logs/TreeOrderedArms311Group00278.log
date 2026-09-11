@@ -1,0 +1,2 @@
+'TreeOrderedArms311.Block00693.bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TreeOrderedArms311.Block01212.bound' depends on axioms: [propext, Classical.choice, Quot.sound]

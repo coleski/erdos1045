@@ -1,0 +1,16 @@
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/AdditionalTreeSymmetries1045.lean:26:42: warning: Variable name `k` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _k
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/AdditionalTreeSymmetries1045.lean:74:30: warning: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [pathReverseMultiplier, rationalUnit_norm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Erdos1045N6.arms311_ordered_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.path_reverse_discriminant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.path_half_ordered_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]

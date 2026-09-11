@@ -1,0 +1,402 @@
+import TreeCertDouble33Block151Part00
+set_option maxRecDepth 10000
+set_option maxHeartbeats 0
+namespace TreeCertDouble33.Block151
+open FixedPointSound
+def node97Box : Box 4 := ![⟨-1818231,-1212154⟩,⟨-7272924,-6060770⟩,⟨4848615,5454692⟩,⟨7272923,8485077⟩]
+theorem node97Checked : leafCheck scale threshold distances node97Box = true := by
+  decide +kernel
+theorem node97Bound : ∀ x, node97Box.Mem scale x → Good x :=
+  leaf_good node97Box node97Checked
+def node98Box : Box 4 := ![⟨-2424308,-1212154⟩,⟨-7272924,-6060770⟩,⟨4848615,5454692⟩,⟨7272923,8485077⟩]
+theorem node98Bound : ∀ x, node98Box.Mem scale x → Good x :=
+  combine_box_bounds node98Box node96Box node97Box i0
+    (by decide +kernel) (by decide +kernel) node96Bound node97Bound
+def node99Box : Box 4 := ![⟨-2424308,-1212154⟩,⟨-7272924,-6060770⟩,⟨5454692,6060769⟩,⟨7272923,7879000⟩]
+theorem node99Checked : leafCheck scale threshold distances node99Box = true := by
+  decide +kernel
+theorem node99Bound : ∀ x, node99Box.Mem scale x → Good x :=
+  leaf_good node99Box node99Checked
+def node100Box : Box 4 := ![⟨-2424308,-1212154⟩,⟨-7272924,-6060770⟩,⟨5454692,6060769⟩,⟨7879000,8485077⟩]
+theorem node100Checked : leafCheck scale threshold distances node100Box = true := by
+  decide +kernel
+theorem node100Bound : ∀ x, node100Box.Mem scale x → Good x :=
+  leaf_good node100Box node100Checked
+def node101Box : Box 4 := ![⟨-2424308,-1212154⟩,⟨-7272924,-6060770⟩,⟨5454692,6060769⟩,⟨7272923,8485077⟩]
+theorem node101Bound : ∀ x, node101Box.Mem scale x → Good x :=
+  combine_box_bounds node101Box node99Box node100Box i3
+    (by decide +kernel) (by decide +kernel) node99Bound node100Bound
+def node102Box : Box 4 := ![⟨-2424308,-1212154⟩,⟨-7272924,-6060770⟩,⟨4848615,6060769⟩,⟨7272923,8485077⟩]
+theorem node102Bound : ∀ x, node102Box.Mem scale x → Good x :=
+  combine_box_bounds node102Box node98Box node101Box i2
+    (by decide +kernel) (by decide +kernel) node98Bound node101Bound
+def node103Box : Box 4 := ![⟨-2424308,-1818231⟩,⟨-7272924,-6666847⟩,⟨4848615,5454692⟩,⟨8485077,9697231⟩]
+theorem node103Checked : leafCheck scale threshold distances node103Box = true := by
+  decide +kernel
+theorem node103Bound : ∀ x, node103Box.Mem scale x → Good x :=
+  leaf_good node103Box node103Checked
+def node104Box : Box 4 := ![⟨-2424308,-1818231⟩,⟨-6666847,-6060770⟩,⟨4848615,5454692⟩,⟨8485077,9697231⟩]
+theorem node104Checked : leafCheck scale threshold distances node104Box = true := by
+  decide +kernel
+theorem node104Bound : ∀ x, node104Box.Mem scale x → Good x :=
+  leaf_good node104Box node104Checked
+def node105Box : Box 4 := ![⟨-2424308,-1818231⟩,⟨-7272924,-6060770⟩,⟨4848615,5454692⟩,⟨8485077,9697231⟩]
+theorem node105Bound : ∀ x, node105Box.Mem scale x → Good x :=
+  combine_box_bounds node105Box node103Box node104Box i1
+    (by decide +kernel) (by decide +kernel) node103Bound node104Bound
+def node106Box : Box 4 := ![⟨-2424308,-1818231⟩,⟨-7272924,-6666847⟩,⟨5454692,6060769⟩,⟨8485077,9697231⟩]
+theorem node106Checked : leafCheck scale threshold distances node106Box = true := by
+  decide +kernel
+theorem node106Bound : ∀ x, node106Box.Mem scale x → Good x :=
+  leaf_good node106Box node106Checked
+def node107Box : Box 4 := ![⟨-2424308,-1818231⟩,⟨-6666847,-6060770⟩,⟨5454692,6060769⟩,⟨8485077,9697231⟩]
+theorem node107Checked : leafCheck scale threshold distances node107Box = true := by
+  decide +kernel
+theorem node107Bound : ∀ x, node107Box.Mem scale x → Good x :=
+  leaf_good node107Box node107Checked
+def node108Box : Box 4 := ![⟨-2424308,-1818231⟩,⟨-7272924,-6060770⟩,⟨5454692,6060769⟩,⟨8485077,9697231⟩]
+theorem node108Bound : ∀ x, node108Box.Mem scale x → Good x :=
+  combine_box_bounds node108Box node106Box node107Box i1
+    (by decide +kernel) (by decide +kernel) node106Bound node107Bound
+def node109Box : Box 4 := ![⟨-2424308,-1818231⟩,⟨-7272924,-6060770⟩,⟨4848615,6060769⟩,⟨8485077,9697231⟩]
+theorem node109Bound : ∀ x, node109Box.Mem scale x → Good x :=
+  combine_box_bounds node109Box node105Box node108Box i2
+    (by decide +kernel) (by decide +kernel) node105Bound node108Bound
+def node110Box : Box 4 := ![⟨-1818231,-1212154⟩,⟨-7272924,-6666847⟩,⟨4848615,5454692⟩,⟨8485077,9697231⟩]
+theorem node110Checked : leafCheck scale threshold distances node110Box = true := by
+  decide +kernel
+theorem node110Bound : ∀ x, node110Box.Mem scale x → Good x :=
+  leaf_good node110Box node110Checked
+def node111Box : Box 4 := ![⟨-1818231,-1212154⟩,⟨-6666847,-6060770⟩,⟨4848615,5454692⟩,⟨8485077,9697231⟩]
+theorem node111Checked : leafCheck scale threshold distances node111Box = true := by
+  decide +kernel
+theorem node111Bound : ∀ x, node111Box.Mem scale x → Good x :=
+  leaf_good node111Box node111Checked
+def node112Box : Box 4 := ![⟨-1818231,-1212154⟩,⟨-7272924,-6060770⟩,⟨4848615,5454692⟩,⟨8485077,9697231⟩]
+theorem node112Bound : ∀ x, node112Box.Mem scale x → Good x :=
+  combine_box_bounds node112Box node110Box node111Box i1
+    (by decide +kernel) (by decide +kernel) node110Bound node111Bound
+def node113Box : Box 4 := ![⟨-1818231,-1212154⟩,⟨-7272924,-6666847⟩,⟨5454692,6060769⟩,⟨8485077,9697231⟩]
+theorem node113Checked : leafCheck scale threshold distances node113Box = true := by
+  decide +kernel
+theorem node113Bound : ∀ x, node113Box.Mem scale x → Good x :=
+  leaf_good node113Box node113Checked
+def node114Box : Box 4 := ![⟨-1818231,-1212154⟩,⟨-6666847,-6060770⟩,⟨5454692,6060769⟩,⟨8485077,9697231⟩]
+theorem node114Checked : leafCheck scale threshold distances node114Box = true := by
+  decide +kernel
+theorem node114Bound : ∀ x, node114Box.Mem scale x → Good x :=
+  leaf_good node114Box node114Checked
+def node115Box : Box 4 := ![⟨-1818231,-1212154⟩,⟨-7272924,-6060770⟩,⟨5454692,6060769⟩,⟨8485077,9697231⟩]
+theorem node115Bound : ∀ x, node115Box.Mem scale x → Good x :=
+  combine_box_bounds node115Box node113Box node114Box i1
+    (by decide +kernel) (by decide +kernel) node113Bound node114Bound
+def node116Box : Box 4 := ![⟨-1818231,-1212154⟩,⟨-7272924,-6060770⟩,⟨4848615,6060769⟩,⟨8485077,9697231⟩]
+theorem node116Bound : ∀ x, node116Box.Mem scale x → Good x :=
+  combine_box_bounds node116Box node112Box node115Box i2
+    (by decide +kernel) (by decide +kernel) node112Bound node115Bound
+def node117Box : Box 4 := ![⟨-2424308,-1212154⟩,⟨-7272924,-6060770⟩,⟨4848615,6060769⟩,⟨8485077,9697231⟩]
+theorem node117Bound : ∀ x, node117Box.Mem scale x → Good x :=
+  combine_box_bounds node117Box node109Box node116Box i0
+    (by decide +kernel) (by decide +kernel) node109Bound node116Bound
+def node118Box : Box 4 := ![⟨-2424308,-1212154⟩,⟨-7272924,-6060770⟩,⟨4848615,6060769⟩,⟨7272923,9697231⟩]
+theorem node118Bound : ∀ x, node118Box.Mem scale x → Good x :=
+  combine_box_bounds node118Box node102Box node117Box i3
+    (by decide +kernel) (by decide +kernel) node102Bound node117Bound
+def node119Box : Box 4 := ![⟨-2424308,-1212154⟩,⟨-7272924,-6060770⟩,⟨6060769,7272923⟩,⟨7272923,8485077⟩]
+theorem node119Checked : leafCheck scale threshold distances node119Box = true := by
+  decide +kernel
+theorem node119Bound : ∀ x, node119Box.Mem scale x → Good x :=
+  leaf_good node119Box node119Checked
+def node120Box : Box 4 := ![⟨-2424308,-1818231⟩,⟨-7272924,-6060770⟩,⟨6060769,6666846⟩,⟨8485077,9697231⟩]
+theorem node120Checked : leafCheck scale threshold distances node120Box = true := by
+  decide +kernel
+theorem node120Bound : ∀ x, node120Box.Mem scale x → Good x :=
+  leaf_good node120Box node120Checked
+def node121Box : Box 4 := ![⟨-1818231,-1212154⟩,⟨-7272924,-6060770⟩,⟨6060769,6666846⟩,⟨8485077,9697231⟩]
+theorem node121Checked : leafCheck scale threshold distances node121Box = true := by
+  decide +kernel
+theorem node121Bound : ∀ x, node121Box.Mem scale x → Good x :=
+  leaf_good node121Box node121Checked
+def node122Box : Box 4 := ![⟨-2424308,-1212154⟩,⟨-7272924,-6060770⟩,⟨6060769,6666846⟩,⟨8485077,9697231⟩]
+theorem node122Bound : ∀ x, node122Box.Mem scale x → Good x :=
+  combine_box_bounds node122Box node120Box node121Box i0
+    (by decide +kernel) (by decide +kernel) node120Bound node121Bound
+def node123Box : Box 4 := ![⟨-2424308,-1212154⟩,⟨-7272924,-6060770⟩,⟨6666846,7272923⟩,⟨8485077,9697231⟩]
+theorem node123Checked : leafCheck scale threshold distances node123Box = true := by
+  decide +kernel
+theorem node123Bound : ∀ x, node123Box.Mem scale x → Good x :=
+  leaf_good node123Box node123Checked
+def node124Box : Box 4 := ![⟨-2424308,-1212154⟩,⟨-7272924,-6060770⟩,⟨6060769,7272923⟩,⟨8485077,9697231⟩]
+theorem node124Bound : ∀ x, node124Box.Mem scale x → Good x :=
+  combine_box_bounds node124Box node122Box node123Box i2
+    (by decide +kernel) (by decide +kernel) node122Bound node123Bound
+def node125Box : Box 4 := ![⟨-2424308,-1212154⟩,⟨-7272924,-6060770⟩,⟨6060769,7272923⟩,⟨7272923,9697231⟩]
+theorem node125Bound : ∀ x, node125Box.Mem scale x → Good x :=
+  combine_box_bounds node125Box node119Box node124Box i3
+    (by decide +kernel) (by decide +kernel) node119Bound node124Bound
+def node126Box : Box 4 := ![⟨-2424308,-1212154⟩,⟨-7272924,-6060770⟩,⟨4848615,7272923⟩,⟨7272923,9697231⟩]
+theorem node126Bound : ∀ x, node126Box.Mem scale x → Good x :=
+  combine_box_bounds node126Box node118Box node125Box i2
+    (by decide +kernel) (by decide +kernel) node118Bound node125Bound
+def node127Box : Box 4 := ![⟨-2424308,-1818231⟩,⟨-6060770,-4848616⟩,⟨4848615,5454692⟩,⟨7272923,8485077⟩]
+theorem node127Checked : leafCheck scale threshold distances node127Box = true := by
+  decide +kernel
+theorem node127Bound : ∀ x, node127Box.Mem scale x → Good x :=
+  leaf_good node127Box node127Checked
+def node128Box : Box 4 := ![⟨-1818231,-1212154⟩,⟨-6060770,-4848616⟩,⟨4848615,5454692⟩,⟨7272923,8485077⟩]
+theorem node128Checked : leafCheck scale threshold distances node128Box = true := by
+  decide +kernel
+theorem node128Bound : ∀ x, node128Box.Mem scale x → Good x :=
+  leaf_good node128Box node128Checked
+def node129Box : Box 4 := ![⟨-2424308,-1212154⟩,⟨-6060770,-4848616⟩,⟨4848615,5454692⟩,⟨7272923,8485077⟩]
+theorem node129Bound : ∀ x, node129Box.Mem scale x → Good x :=
+  combine_box_bounds node129Box node127Box node128Box i0
+    (by decide +kernel) (by decide +kernel) node127Bound node128Bound
+def node130Box : Box 4 := ![⟨-2424308,-1212154⟩,⟨-6060770,-4848616⟩,⟨5454692,6060769⟩,⟨7272923,8485077⟩]
+theorem node130Checked : leafCheck scale threshold distances node130Box = true := by
+  decide +kernel
+theorem node130Bound : ∀ x, node130Box.Mem scale x → Good x :=
+  leaf_good node130Box node130Checked
+def node131Box : Box 4 := ![⟨-2424308,-1212154⟩,⟨-6060770,-4848616⟩,⟨4848615,6060769⟩,⟨7272923,8485077⟩]
+theorem node131Bound : ∀ x, node131Box.Mem scale x → Good x :=
+  combine_box_bounds node131Box node129Box node130Box i2
+    (by decide +kernel) (by decide +kernel) node129Bound node130Bound
+def node132Box : Box 4 := ![⟨-2424308,-1818231⟩,⟨-6060770,-5454693⟩,⟨4848615,5454692⟩,⟨8485077,9697231⟩]
+theorem node132Checked : leafCheck scale threshold distances node132Box = true := by
+  decide +kernel
+theorem node132Bound : ∀ x, node132Box.Mem scale x → Good x :=
+  leaf_good node132Box node132Checked
+def node133Box : Box 4 := ![⟨-2424308,-1818231⟩,⟨-5454693,-4848616⟩,⟨4848615,5454692⟩,⟨8485077,9697231⟩]
+theorem node133Checked : leafCheck scale threshold distances node133Box = true := by
+  decide +kernel
+theorem node133Bound : ∀ x, node133Box.Mem scale x → Good x :=
+  leaf_good node133Box node133Checked
+def node134Box : Box 4 := ![⟨-2424308,-1818231⟩,⟨-6060770,-4848616⟩,⟨4848615,5454692⟩,⟨8485077,9697231⟩]
+theorem node134Bound : ∀ x, node134Box.Mem scale x → Good x :=
+  combine_box_bounds node134Box node132Box node133Box i1
+    (by decide +kernel) (by decide +kernel) node132Bound node133Bound
+def node135Box : Box 4 := ![⟨-2424308,-1818231⟩,⟨-6060770,-4848616⟩,⟨5454692,6060769⟩,⟨8485077,9091154⟩]
+theorem node135Checked : leafCheck scale threshold distances node135Box = true := by
+  decide +kernel
+theorem node135Bound : ∀ x, node135Box.Mem scale x → Good x :=
+  leaf_good node135Box node135Checked
+def node136Box : Box 4 := ![⟨-2424308,-1818231⟩,⟨-6060770,-4848616⟩,⟨5454692,6060769⟩,⟨9091154,9697231⟩]
+theorem node136Checked : leafCheck scale threshold distances node136Box = true := by
+  decide +kernel
+theorem node136Bound : ∀ x, node136Box.Mem scale x → Good x :=
+  leaf_good node136Box node136Checked
+def node137Box : Box 4 := ![⟨-2424308,-1818231⟩,⟨-6060770,-4848616⟩,⟨5454692,6060769⟩,⟨8485077,9697231⟩]
+theorem node137Bound : ∀ x, node137Box.Mem scale x → Good x :=
+  combine_box_bounds node137Box node135Box node136Box i3
+    (by decide +kernel) (by decide +kernel) node135Bound node136Bound
+def node138Box : Box 4 := ![⟨-2424308,-1818231⟩,⟨-6060770,-4848616⟩,⟨4848615,6060769⟩,⟨8485077,9697231⟩]
+theorem node138Bound : ∀ x, node138Box.Mem scale x → Good x :=
+  combine_box_bounds node138Box node134Box node137Box i2
+    (by decide +kernel) (by decide +kernel) node134Bound node137Bound
+def node139Box : Box 4 := ![⟨-1818231,-1212154⟩,⟨-6060770,-4848616⟩,⟨4848615,5454692⟩,⟨8485077,9091154⟩]
+theorem node139Checked : leafCheck scale threshold distances node139Box = true := by
+  decide +kernel
+theorem node139Bound : ∀ x, node139Box.Mem scale x → Good x :=
+  leaf_good node139Box node139Checked
+def node140Box : Box 4 := ![⟨-1818231,-1212154⟩,⟨-6060770,-5454693⟩,⟨4848615,5454692⟩,⟨9091154,9697231⟩]
+theorem node140Checked : leafCheck scale threshold distances node140Box = true := by
+  decide +kernel
+theorem node140Bound : ∀ x, node140Box.Mem scale x → Good x :=
+  leaf_good node140Box node140Checked
+def node141Box : Box 4 := ![⟨-1818231,-1212154⟩,⟨-5454693,-4848616⟩,⟨4848615,5454692⟩,⟨9091154,9697231⟩]
+theorem node141Checked : leafCheck scale threshold distances node141Box = true := by
+  decide +kernel
+theorem node141Bound : ∀ x, node141Box.Mem scale x → Good x :=
+  leaf_good node141Box node141Checked
+def node142Box : Box 4 := ![⟨-1818231,-1212154⟩,⟨-6060770,-4848616⟩,⟨4848615,5454692⟩,⟨9091154,9697231⟩]
+theorem node142Bound : ∀ x, node142Box.Mem scale x → Good x :=
+  combine_box_bounds node142Box node140Box node141Box i1
+    (by decide +kernel) (by decide +kernel) node140Bound node141Bound
+def node143Box : Box 4 := ![⟨-1818231,-1212154⟩,⟨-6060770,-4848616⟩,⟨4848615,5454692⟩,⟨8485077,9697231⟩]
+theorem node143Bound : ∀ x, node143Box.Mem scale x → Good x :=
+  combine_box_bounds node143Box node139Box node142Box i3
+    (by decide +kernel) (by decide +kernel) node139Bound node142Bound
+def node144Box : Box 4 := ![⟨-1818231,-1212154⟩,⟨-6060770,-4848616⟩,⟨5454692,6060769⟩,⟨8485077,9091154⟩]
+theorem node144Checked : leafCheck scale threshold distances node144Box = true := by
+  decide +kernel
+theorem node144Bound : ∀ x, node144Box.Mem scale x → Good x :=
+  leaf_good node144Box node144Checked
+def node145Box : Box 4 := ![⟨-1818231,-1212154⟩,⟨-6060770,-4848616⟩,⟨5454692,6060769⟩,⟨9091154,9697231⟩]
+theorem node145Checked : leafCheck scale threshold distances node145Box = true := by
+  decide +kernel
+theorem node145Bound : ∀ x, node145Box.Mem scale x → Good x :=
+  leaf_good node145Box node145Checked
+def node146Box : Box 4 := ![⟨-1818231,-1212154⟩,⟨-6060770,-4848616⟩,⟨5454692,6060769⟩,⟨8485077,9697231⟩]
+theorem node146Bound : ∀ x, node146Box.Mem scale x → Good x :=
+  combine_box_bounds node146Box node144Box node145Box i3
+    (by decide +kernel) (by decide +kernel) node144Bound node145Bound
+def node147Box : Box 4 := ![⟨-1818231,-1212154⟩,⟨-6060770,-4848616⟩,⟨4848615,6060769⟩,⟨8485077,9697231⟩]
+theorem node147Bound : ∀ x, node147Box.Mem scale x → Good x :=
+  combine_box_bounds node147Box node143Box node146Box i2
+    (by decide +kernel) (by decide +kernel) node143Bound node146Bound
+def node148Box : Box 4 := ![⟨-2424308,-1212154⟩,⟨-6060770,-4848616⟩,⟨4848615,6060769⟩,⟨8485077,9697231⟩]
+theorem node148Bound : ∀ x, node148Box.Mem scale x → Good x :=
+  combine_box_bounds node148Box node138Box node147Box i0
+    (by decide +kernel) (by decide +kernel) node138Bound node147Bound
+def node149Box : Box 4 := ![⟨-2424308,-1212154⟩,⟨-6060770,-4848616⟩,⟨4848615,6060769⟩,⟨7272923,9697231⟩]
+theorem node149Bound : ∀ x, node149Box.Mem scale x → Good x :=
+  combine_box_bounds node149Box node131Box node148Box i3
+    (by decide +kernel) (by decide +kernel) node131Bound node148Bound
+def node150Box : Box 4 := ![⟨-2424308,-1212154⟩,⟨-6060770,-4848616⟩,⟨6060769,7272923⟩,⟨7272923,8485077⟩]
+theorem node150Checked : leafCheck scale threshold distances node150Box = true := by
+  decide +kernel
+theorem node150Bound : ∀ x, node150Box.Mem scale x → Good x :=
+  leaf_good node150Box node150Checked
+def node151Box : Box 4 := ![⟨-2424308,-1818231⟩,⟨-6060770,-4848616⟩,⟨6060769,6666846⟩,⟨8485077,9697231⟩]
+theorem node151Checked : leafCheck scale threshold distances node151Box = true := by
+  decide +kernel
+theorem node151Bound : ∀ x, node151Box.Mem scale x → Good x :=
+  leaf_good node151Box node151Checked
+def node152Box : Box 4 := ![⟨-1818231,-1212154⟩,⟨-6060770,-4848616⟩,⟨6060769,6666846⟩,⟨8485077,9697231⟩]
+theorem node152Checked : leafCheck scale threshold distances node152Box = true := by
+  decide +kernel
+theorem node152Bound : ∀ x, node152Box.Mem scale x → Good x :=
+  leaf_good node152Box node152Checked
+def node153Box : Box 4 := ![⟨-2424308,-1212154⟩,⟨-6060770,-4848616⟩,⟨6060769,6666846⟩,⟨8485077,9697231⟩]
+theorem node153Bound : ∀ x, node153Box.Mem scale x → Good x :=
+  combine_box_bounds node153Box node151Box node152Box i0
+    (by decide +kernel) (by decide +kernel) node151Bound node152Bound
+def node154Box : Box 4 := ![⟨-2424308,-1212154⟩,⟨-6060770,-4848616⟩,⟨6666846,7272923⟩,⟨8485077,9697231⟩]
+theorem node154Checked : leafCheck scale threshold distances node154Box = true := by
+  decide +kernel
+theorem node154Bound : ∀ x, node154Box.Mem scale x → Good x :=
+  leaf_good node154Box node154Checked
+def node155Box : Box 4 := ![⟨-2424308,-1212154⟩,⟨-6060770,-4848616⟩,⟨6060769,7272923⟩,⟨8485077,9697231⟩]
+theorem node155Bound : ∀ x, node155Box.Mem scale x → Good x :=
+  combine_box_bounds node155Box node153Box node154Box i2
+    (by decide +kernel) (by decide +kernel) node153Bound node154Bound
+def node156Box : Box 4 := ![⟨-2424308,-1212154⟩,⟨-6060770,-4848616⟩,⟨6060769,7272923⟩,⟨7272923,9697231⟩]
+theorem node156Bound : ∀ x, node156Box.Mem scale x → Good x :=
+  combine_box_bounds node156Box node150Box node155Box i3
+    (by decide +kernel) (by decide +kernel) node150Bound node155Bound
+def node157Box : Box 4 := ![⟨-2424308,-1212154⟩,⟨-6060770,-4848616⟩,⟨4848615,7272923⟩,⟨7272923,9697231⟩]
+theorem node157Bound : ∀ x, node157Box.Mem scale x → Good x :=
+  combine_box_bounds node157Box node149Box node156Box i2
+    (by decide +kernel) (by decide +kernel) node149Bound node156Bound
+def node158Box : Box 4 := ![⟨-2424308,-1212154⟩,⟨-7272924,-4848616⟩,⟨4848615,7272923⟩,⟨7272923,9697231⟩]
+theorem node158Bound : ∀ x, node158Box.Mem scale x → Good x :=
+  combine_box_bounds node158Box node126Box node157Box i1
+    (by decide +kernel) (by decide +kernel) node126Bound node157Bound
+def node159Box : Box 4 := ![⟨-1212154,0⟩,⟨-7272924,-6060770⟩,⟨4848615,6060769⟩,⟨7272923,8485077⟩]
+theorem node159Checked : leafCheck scale threshold distances node159Box = true := by
+  decide +kernel
+theorem node159Bound : ∀ x, node159Box.Mem scale x → Good x :=
+  leaf_good node159Box node159Checked
+def node160Box : Box 4 := ![⟨-1212154,-909116⟩,⟨-7272924,-6060770⟩,⟨4848615,6060769⟩,⟨8485077,9697231⟩]
+theorem node160Checked : leafCheck scale threshold distances node160Box = true := by
+  decide +kernel
+theorem node160Bound : ∀ x, node160Box.Mem scale x → Good x :=
+  leaf_good node160Box node160Checked
+def node161Box : Box 4 := ![⟨-909116,-606077⟩,⟨-7272924,-6060770⟩,⟨4848615,6060769⟩,⟨8485077,9697231⟩]
+theorem node161Checked : leafCheck scale threshold distances node161Box = true := by
+  decide +kernel
+theorem node161Bound : ∀ x, node161Box.Mem scale x → Good x :=
+  leaf_good node161Box node161Checked
+def node162Box : Box 4 := ![⟨-1212154,-606077⟩,⟨-7272924,-6060770⟩,⟨4848615,6060769⟩,⟨8485077,9697231⟩]
+theorem node162Bound : ∀ x, node162Box.Mem scale x → Good x :=
+  combine_box_bounds node162Box node160Box node161Box i0
+    (by decide +kernel) (by decide +kernel) node160Bound node161Bound
+def node163Box : Box 4 := ![⟨-606077,0⟩,⟨-7272924,-6060770⟩,⟨4848615,6060769⟩,⟨8485077,9697231⟩]
+theorem node163Checked : leafCheck scale threshold distances node163Box = true := by
+  decide +kernel
+theorem node163Bound : ∀ x, node163Box.Mem scale x → Good x :=
+  leaf_good node163Box node163Checked
+def node164Box : Box 4 := ![⟨-1212154,0⟩,⟨-7272924,-6060770⟩,⟨4848615,6060769⟩,⟨8485077,9697231⟩]
+theorem node164Bound : ∀ x, node164Box.Mem scale x → Good x :=
+  combine_box_bounds node164Box node162Box node163Box i0
+    (by decide +kernel) (by decide +kernel) node162Bound node163Bound
+def node165Box : Box 4 := ![⟨-1212154,0⟩,⟨-7272924,-6060770⟩,⟨4848615,6060769⟩,⟨7272923,9697231⟩]
+theorem node165Bound : ∀ x, node165Box.Mem scale x → Good x :=
+  combine_box_bounds node165Box node159Box node164Box i3
+    (by decide +kernel) (by decide +kernel) node159Bound node164Bound
+def node166Box : Box 4 := ![⟨-1212154,0⟩,⟨-7272924,-6060770⟩,⟨6060769,7272923⟩,⟨7272923,8485077⟩]
+theorem node166Checked : leafCheck scale threshold distances node166Box = true := by
+  decide +kernel
+theorem node166Bound : ∀ x, node166Box.Mem scale x → Good x :=
+  leaf_good node166Box node166Checked
+def node167Box : Box 4 := ![⟨-1212154,0⟩,⟨-7272924,-6060770⟩,⟨6060769,7272923⟩,⟨8485077,9697231⟩]
+theorem node167Checked : leafCheck scale threshold distances node167Box = true := by
+  decide +kernel
+theorem node167Bound : ∀ x, node167Box.Mem scale x → Good x :=
+  leaf_good node167Box node167Checked
+def node168Box : Box 4 := ![⟨-1212154,0⟩,⟨-7272924,-6060770⟩,⟨6060769,7272923⟩,⟨7272923,9697231⟩]
+theorem node168Bound : ∀ x, node168Box.Mem scale x → Good x :=
+  combine_box_bounds node168Box node166Box node167Box i3
+    (by decide +kernel) (by decide +kernel) node166Bound node167Bound
+def node169Box : Box 4 := ![⟨-1212154,0⟩,⟨-7272924,-6060770⟩,⟨4848615,7272923⟩,⟨7272923,9697231⟩]
+theorem node169Bound : ∀ x, node169Box.Mem scale x → Good x :=
+  combine_box_bounds node169Box node165Box node168Box i2
+    (by decide +kernel) (by decide +kernel) node165Bound node168Bound
+def node170Box : Box 4 := ![⟨-1212154,0⟩,⟨-6060770,-4848616⟩,⟨4848615,6060769⟩,⟨7272923,8485077⟩]
+theorem node170Checked : leafCheck scale threshold distances node170Box = true := by
+  decide +kernel
+theorem node170Bound : ∀ x, node170Box.Mem scale x → Good x :=
+  leaf_good node170Box node170Checked
+def node171Box : Box 4 := ![⟨-1212154,-909116⟩,⟨-6060770,-4848616⟩,⟨4848615,6060769⟩,⟨8485077,9697231⟩]
+theorem node171Checked : leafCheck scale threshold distances node171Box = true := by
+  decide +kernel
+theorem node171Bound : ∀ x, node171Box.Mem scale x → Good x :=
+  leaf_good node171Box node171Checked
+def node172Box : Box 4 := ![⟨-909116,-606077⟩,⟨-6060770,-4848616⟩,⟨4848615,6060769⟩,⟨8485077,9697231⟩]
+theorem node172Checked : leafCheck scale threshold distances node172Box = true := by
+  decide +kernel
+theorem node172Bound : ∀ x, node172Box.Mem scale x → Good x :=
+  leaf_good node172Box node172Checked
+def node173Box : Box 4 := ![⟨-1212154,-606077⟩,⟨-6060770,-4848616⟩,⟨4848615,6060769⟩,⟨8485077,9697231⟩]
+theorem node173Bound : ∀ x, node173Box.Mem scale x → Good x :=
+  combine_box_bounds node173Box node171Box node172Box i0
+    (by decide +kernel) (by decide +kernel) node171Bound node172Bound
+def node174Box : Box 4 := ![⟨-606077,0⟩,⟨-6060770,-4848616⟩,⟨4848615,6060769⟩,⟨8485077,9697231⟩]
+theorem node174Checked : leafCheck scale threshold distances node174Box = true := by
+  decide +kernel
+theorem node174Bound : ∀ x, node174Box.Mem scale x → Good x :=
+  leaf_good node174Box node174Checked
+def node175Box : Box 4 := ![⟨-1212154,0⟩,⟨-6060770,-4848616⟩,⟨4848615,6060769⟩,⟨8485077,9697231⟩]
+theorem node175Bound : ∀ x, node175Box.Mem scale x → Good x :=
+  combine_box_bounds node175Box node173Box node174Box i0
+    (by decide +kernel) (by decide +kernel) node173Bound node174Bound
+def node176Box : Box 4 := ![⟨-1212154,0⟩,⟨-6060770,-4848616⟩,⟨4848615,6060769⟩,⟨7272923,9697231⟩]
+theorem node176Bound : ∀ x, node176Box.Mem scale x → Good x :=
+  combine_box_bounds node176Box node170Box node175Box i3
+    (by decide +kernel) (by decide +kernel) node170Bound node175Bound
+def node177Box : Box 4 := ![⟨-1212154,0⟩,⟨-6060770,-4848616⟩,⟨6060769,7272923⟩,⟨7272923,8485077⟩]
+theorem node177Checked : leafCheck scale threshold distances node177Box = true := by
+  decide +kernel
+theorem node177Bound : ∀ x, node177Box.Mem scale x → Good x :=
+  leaf_good node177Box node177Checked
+def node178Box : Box 4 := ![⟨-1212154,0⟩,⟨-6060770,-4848616⟩,⟨6060769,7272923⟩,⟨8485077,9697231⟩]
+theorem node178Checked : leafCheck scale threshold distances node178Box = true := by
+  decide +kernel
+theorem node178Bound : ∀ x, node178Box.Mem scale x → Good x :=
+  leaf_good node178Box node178Checked
+def node179Box : Box 4 := ![⟨-1212154,0⟩,⟨-6060770,-4848616⟩,⟨6060769,7272923⟩,⟨7272923,9697231⟩]
+theorem node179Bound : ∀ x, node179Box.Mem scale x → Good x :=
+  combine_box_bounds node179Box node177Box node178Box i3
+    (by decide +kernel) (by decide +kernel) node177Bound node178Bound
+def node180Box : Box 4 := ![⟨-1212154,0⟩,⟨-6060770,-4848616⟩,⟨4848615,7272923⟩,⟨7272923,9697231⟩]
+theorem node180Bound : ∀ x, node180Box.Mem scale x → Good x :=
+  combine_box_bounds node180Box node176Box node179Box i2
+    (by decide +kernel) (by decide +kernel) node176Bound node179Bound
+def node181Box : Box 4 := ![⟨-1212154,0⟩,⟨-7272924,-4848616⟩,⟨4848615,7272923⟩,⟨7272923,9697231⟩]
+theorem node181Bound : ∀ x, node181Box.Mem scale x → Good x :=
+  combine_box_bounds node181Box node169Box node180Box i1
+    (by decide +kernel) (by decide +kernel) node169Bound node180Bound
+def node182Box : Box 4 := ![⟨-2424308,0⟩,⟨-7272924,-4848616⟩,⟨4848615,7272923⟩,⟨7272923,9697231⟩]
+theorem node182Bound : ∀ x, node182Box.Mem scale x → Good x :=
+  combine_box_bounds node182Box node158Box node181Box i0
+    (by decide +kernel) (by decide +kernel) node158Bound node181Bound
+def node183Box : Box 4 := ![⟨-2424308,0⟩,⟨-9697231,-4848616⟩,⟨4848615,7272923⟩,⟨7272923,9697231⟩]
+theorem node183Bound : ∀ x, node183Box.Mem scale x → Good x :=
+  combine_box_bounds node183Box node95Box node182Box i1
+    (by decide +kernel) (by decide +kernel) node95Bound node182Bound
+def node184Box : Box 4 := ![⟨-2424308,0⟩,⟨-9697231,-4848616⟩,⟨4848615,7272923⟩,⟨4848615,9697231⟩]
+theorem node184Bound : ∀ x, node184Box.Mem scale x → Good x :=
+  combine_box_bounds node184Box node46Box node183Box i3
+    (by decide +kernel) (by decide +kernel) node46Bound node183Bound
+
+end TreeCertDouble33.Block151

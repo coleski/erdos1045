@@ -1,0 +1,4 @@
+'Erdos1045N6.initialCertificateBox_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.tree_bound_of_0_good' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.tree_bound_of_1_good' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.tree_bound_of_2_good' depends on axioms: [propext, Classical.choice, Quot.sound]

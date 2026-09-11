@@ -1,0 +1,9 @@
+'FixedPointSound.Expr.diff_eq_of_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPointSound.distance_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/DistanceDerivatives.lean:51:43: warning: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/DistanceDerivatives.lean:51:43: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+'FixedPointSound.factor_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]

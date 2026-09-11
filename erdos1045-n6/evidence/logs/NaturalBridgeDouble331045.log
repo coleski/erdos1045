@@ -1,0 +1,36 @@
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/NaturalBridgeDouble331045.lean:11:26: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/NaturalBridgeDouble331045.lean:16:51: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/NaturalBridgeDouble331045.lean:19:51: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/NaturalBridgeDouble331045.lean:22:51: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/NaturalBridgeDouble331045.lean:25:51: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/NaturalBridgeDouble331045.lean:28:51: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/NaturalBridgeDouble331045.lean:31:51: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/NaturalBridgeDouble331045.lean:34:51: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/NaturalBridgeDouble331045.lean:37:51: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/NaturalBridgeDouble331045.lean:40:51: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/NaturalBridgeDouble331045.lean:43:51: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'TreeCertDouble33.distance_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TreeCertDouble33.objective_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TreeCertDouble33.admissible_of_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]

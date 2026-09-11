@@ -1,0 +1,8 @@
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/RationalAD.lean:80:30: warning: This simp argument is unused:
+  Function.comp_def
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Expr.val, Expr.diff, Rat.cast_neg, Rat.cast_one, gradient_smul, pow_two]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'RationalAD.Expr.hasFDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]

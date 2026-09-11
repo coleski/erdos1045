@@ -1,0 +1,57 @@
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/Erdos1045N6.lean:27:29: warning: Variable name `hq0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hq0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/Erdos1045N6.lean:40:5: warning: Variable name `hy0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hy0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/Erdos1045N6.lean:99:33: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/Erdos1045N6.lean:287:21: warning: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [mul_pow, hc, norm_pow, hu]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/Erdos1045N6.lean:311:23: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/Erdos1045N6.lean:492:21: warning: This simp argument is unused:
+  Fin.reduceFinMk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [normalizedSextuple, Matrix.cons_val_zero, Matrix.cons_val_one, Matrix.cons_val,
+    triangle_edge_norms.1, triangle_edge_norms.2.1, triangle_edge_norms.2.2, norm_mul, norm_prod]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Erdos1045N6.arc_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.weight_identities' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.boundary_cubic_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.boundary_column_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.boundary_all_columns' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.final_constant_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.arc_geometry_algebra' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.remaining_disks_imply_arc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.first_circle_columns' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.columns_of_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.complex_hadamard' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.omega_square_anchor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.rotate_mem_reuleaux' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.reuleaux_column_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.matrix_hadamard_squared' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.weighted_determinant_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.weighted_determinant_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.triangle_edge_norms' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.discriminant_six_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.normalized_triangle_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.triangle_bound_rigid_copy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.fixed_triangle_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.unit_equilateral_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.diameter_triangle_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.diameter_triangle_bound_permuted' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.any_diameter_triangle_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,18 @@
+'FixedPointSound.taylorRows_unpenalized_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/TaylorCheckSound.lean:171:34: warning: This simp argument is unused:
+  penaltyExpr_val
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [g, full, taylorPenaltyValue, taylorFinishValue_gradient, TaylorExpr.val, List.map_map,
+    Function.comp_def, sub_eq_add_neg]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'FixedPointSound.taylorRows_penalized_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/TaylorCheckSound.lean:244:51: warning: This simp argument is unused:
+  hr
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [fastTaylorCheck, evalTaylorBound, he, hlambda] at hcheck
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'FixedPointSound.fastTaylorCheck_sound' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'Erdos1045N6.six_point_upper_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.six_point_exact_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.six_point_bound_explicit' depends on axioms: [propext, Classical.choice, Quot.sound]

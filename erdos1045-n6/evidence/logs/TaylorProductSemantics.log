@@ -1,0 +1,1 @@
+'FixedPointSound.objectiveExpr_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]

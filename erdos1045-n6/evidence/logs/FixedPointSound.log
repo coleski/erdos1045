@@ -1,0 +1,3 @@
+'FixedPointSound.mul_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPointSound.div_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPointSound.sq_sound' depends on axioms: [propext, Classical.choice, Quot.sound]

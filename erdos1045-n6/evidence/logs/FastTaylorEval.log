@@ -1,0 +1,3 @@
+'FixedPointSound.taylorFold_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPointSound.taylorPenalty_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPointSound.evalTaylorRows_sound' depends on axioms: [propext, Classical.choice, Quot.sound]

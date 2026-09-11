@@ -1,0 +1,2 @@
+'Erdos1045N6.taylor_admissible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.tree_bound_of_scaled_objective' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'Erdos1045N6.tree_distance_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.tree_discriminant_cert' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.certDistance_le_four' depends on axioms: [propext, Classical.choice, Quot.sound]

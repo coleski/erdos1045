@@ -1,0 +1,2 @@
+'Erdos1045N6.exists_arms221_swap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.arms221_half_ordered_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]

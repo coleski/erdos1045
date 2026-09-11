@@ -1,0 +1,2 @@
+'FixedPointSound.arms221OrderedReject_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPointSound.arms221_ordered_reject_good' depends on axioms: [propext, Classical.choice, Quot.sound]

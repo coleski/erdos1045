@@ -1,0 +1,1 @@
+'C5Interval.Cover.sound' depends on axioms: [propext, Classical.choice, Quot.sound]

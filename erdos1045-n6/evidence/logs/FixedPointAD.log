@@ -1,0 +1,2 @@
+'FixedPointSound.Expr.hasFDerivAt_of_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPointSound.Expr.hasFDerivAt_diff' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,43 @@
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/TreeModel1045.lean:44:46: warning: This simp argument is unused:
+  Matrix.cons_val_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [treePoints, treeEdges, Matrix.cons_val_one, Matrix.cons_val, Prod.fst, Prod.snd]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/TreeModel1045.lean:44:68: warning: This simp argument is unused:
+  Matrix.cons_val_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [treePoints, treeEdges, Matrix.cons_val_zero, Matrix.cons_val, Prod.fst, Prod.snd]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/TreeModel1045.lean:45:4: warning: This simp argument is unused:
+  Matrix.cons_val
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [treePoints, treeEdges, Matrix.cons_val_zero, Matrix.cons_val_one, Prod.fst, Prod.snd]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/TreeModel1045.lean:45:21: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [treePoints, treeEdges, Matrix.cons_val_zero, Matrix.cons_val_one, Matrix.cons_val, Prod.snd]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/TreeModel1045.lean:45:31: warning: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [treePoints, treeEdges, Matrix.cons_val_zero, Matrix.cons_val_one, Matrix.cons_val, Prod.fst]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/TreeModel1045.lean:47:18: warning: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [rationalUnit_norm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Erdos1045N6.treePoints_edge_norm' depends on axioms: [propext, Classical.choice, Quot.sound]

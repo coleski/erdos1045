@@ -1,0 +1,9 @@
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/TaylorLeafSound.lean:17:36: warning: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [centerPoint, mul_div_cancel₀, hs']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'FixedPointSound.rounded_taylor_leaf' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPointSound.rounded_taylor_enclosures' depends on axioms: [propext, Classical.choice, Quot.sound]

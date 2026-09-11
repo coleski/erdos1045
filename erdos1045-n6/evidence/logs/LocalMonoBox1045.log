@@ -1,0 +1,2 @@
+'Erdos1045N6.LocalMono.localBox_mem_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.LocalMono.reflected_localBox_mem_iff' depends on axioms: [propext, Classical.choice, Quot.sound]

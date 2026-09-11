@@ -1,0 +1,3 @@
+'FixedPointSound.mixed_natural_good' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPointSound.mixed_taylor_good' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPointSound.mixed_mono_good' depends on axioms: [propext, Classical.choice, Quot.sound]

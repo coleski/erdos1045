@@ -1,0 +1,11 @@
+/var/folders/4y/ps29sw397zvfg5j92gl4zbp00000gn/T/erdos1045-clean-a8seq3u2/source/Unit1045N6.lean:22:20: warning: This simp argument is unused:
+  zero_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [rationalUnit, Complex.add_re, Complex.add_im, Complex.mul_re, Complex.mul_im, Complex.ofReal_re,
+    Complex.ofReal_im, Complex.I_re, Complex.I_im, mul_zero, mul_one, sub_zero, add_zero, zero_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Erdos1045N6.rationalUnit_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.exists_rationalUnit_of_arc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.exists_diameter_edge_parameter' depends on axioms: [propext, Classical.choice, Quot.sound]

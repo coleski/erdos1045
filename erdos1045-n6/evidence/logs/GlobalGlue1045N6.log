@@ -1,0 +1,2 @@
+'Erdos1045N6.Target_of_all_tree_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.IsGreatest_of_all_tree_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

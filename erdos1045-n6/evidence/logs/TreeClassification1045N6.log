@@ -1,0 +1,2 @@
+'Erdos1045N6.SixTree.exists_canonical_of_tree_of_check' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.SixTree.exists_canonical_edges_of_tree_of_check' depends on axioms: [propext, Classical.choice, Quot.sound]

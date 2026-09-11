@@ -1,0 +1,6 @@
+'Erdos1045N6.arms221_certified_local_good' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.arms221_certified_local_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.treePoints_arms221_certified_local_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.treePoints_arms221_certified_integer_local_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

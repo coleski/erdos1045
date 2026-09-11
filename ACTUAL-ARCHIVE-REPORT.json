@@ -1,0 +1,75 @@
+{
+  "status": "passed",
+  "audit_kind": "actual_archive_readback_not_a_new_Lean_build",
+  "archive": "/Users/colebenefield/backend/research/erdos-resolution-20260910/erdos1045-n6-proof-20260911.tar.gz",
+  "archive_sha256": "b149696ac62e41487297b4f9b8293c639f400418a561eb9db598db967f7f6622",
+  "archive_bytes": 11418839,
+  "members": 17639,
+  "uncompressed_bytes": 173973012,
+  "local_sources": 8805,
+  "local_import_edges": 19571,
+  "module_records_passed": 8805,
+  "report_sha256": "a7d54fc503a88f8c48e123dc05641f83a595654acfa0e06d4b4297972edc2281",
+  "source_map_sha256": "ad2a488811a85aa2c1289ae637fd3303a6875a76b8201c7a7d9f4d624563d205",
+  "final_lean_sha256": "3d082747082f72669aa09e45e9b2095964a875c00c10ea2afe15f9e265dceb07",
+  "packager_sha256": "92e671cf608c9d2527bcd656021bd273eb1c1fe2966789d377819ca73bad00bc",
+  "final_axioms": {
+    "Erdos1045N6.six_point_upper_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1045N6.six_point_exact_maximum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1045N6.six_point_bound_explicit": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "pins": {
+    "clean_build1045.py": "a7b9fbb253e353c1f1832a53d4ae068b628e3058ac5755b151e753542a9ac090",
+    "lake-manifest.json": "0b61e098c529d7c23c52d8280bafe373d9faf16a98fc895a26516149604a2696",
+    "lean-toolchain": "302cd63c54178885b89e669f33b38f12f4dd7ae7e5cac537b3203e3768d8fb2b",
+    "lakefile.toml": "d1cfc4a0d0658a3271e017de25fdb01f8ed3688c4576f1a8ab34ff962ffdfba8"
+  },
+  "document_sha256": {
+    "1045-proof.md": "7a8728f7068e5a5b52855a3c051bdc7945bff0eed91ffa7e0472f97be4cff6ec",
+    "1045-six-target.md": "de40e7a96b690200e000965ac1677e68f8f27e25fa17756ebd011f1dbc2cee08",
+    "1045-verification.md": "06bece83eec3d3cf34464215d54163dfcacf77c960b7512ae13a0cf9c3c992c9",
+    "1045-novelty-check.md": "f97bc998c7cf1cfbd3e3dfb503afdc3ead6d5681a77210ffa19a1ee4cb6a5ee5",
+    "1045-trust-boundary.md": "7b71496b91fa4584d2b2bba6e6311cb025260e8bad07ee2f47291909c2d97d39",
+    "1045-triangle-proof.md": "fd8581678167d17eca0b75b34e63ef618a574c36edf310c43508f277ae3ebdf6",
+    "1045-interval-kernel-proof.md": "fd1bb8bb2797afc477aaf13512da03ef724d707a8c15bd54f4ec7b5bd154e365",
+    "1045-target-semantic-audit.md": "e9ba837c2df71d5ab6dd53f5448f50acce200e0409f3b7bab8d30503020c6500",
+    "1045-global-independent-audit.md": "e4800563b6507655703c475bfa4028634f0a166cd5be9b363a9987cd801b1b2c",
+    "1045-triangle-independent-audit.md": "8ea7d4873b7d019182ec074707d6a3bb5cab12e1aa0142fa74a872a246d56b27",
+    "1045-taylor-geometry-audit.md": "8aa423d72ea5a1dae85f9331041049f7e289747b30d1bbc8792cd7c16de41f31",
+    "1045-ordered-consumers-audit.md": "cf73644d63e54965557bfc441f64351284296e3022309b4d62bf3156a6c0a51c",
+    "1045-human-final-proof-audit.md": "81278813e6f39dcdd2de665fbe1e6eb551e9d8a70f6d3bb352aee8751fb30a03",
+    "1045-clean-build-audit.md": "833ac5dc83226f4ae2fff611e05b7b6bcbba78f6c8719805f13e1880b868c785",
+    "1045-clean-scheduler-audit.md": "53083b6addeb189552e9c4d090f5fe6dff0905848bd7dd637f747ad87ad90a00",
+    "1045-reader-reproduction-audit.md": "234e1d73870b46ec1f5b089651e3e4795b8bf7748b3e6276d89dd8bcd381f733",
+    "1045-audit-index.md": "49510f06ceb79e7b988e7a194ae86813e2efb32b13675805cf9834cb5c8a800f",
+    "1045-interval-taylor-audit.md": "7dd861c55972970e2fe1a15e7cee3115a70b54b3c6309250cb8975689cf7ea83",
+    "1045-local-certificate-audit.md": "2695ba0691404851af4f23c148754ca292f2f8b927f5d62db34c0ef2cb7addaa",
+    "1045-final-snapshot-meaning-audit.md": "a4d1a33b7dcbc1b71db5dc687f7c9b310af8a41810dbb1a776373e1bf7d9afc8",
+    "README.md": "98d9fbed318e15809a5910d01572314d4761614ef91287341c57e2a997af3642"
+  },
+  "checks": [
+    "all member bytes/sizes/hashes",
+    "safe regular paths and metadata",
+    "all snapshot and original source bytes",
+    "all actual compiler logs",
+    "independent exact8805 reachable acyclic import DAG",
+    "all8805 passed records and snapshot compile commands",
+    "all8805 output oleans exist",
+    "all dependency/config/toolchain pins",
+    "all3 exact final axiom reports",
+    "current selected documentation bytes",
+    "exact no-extra file inventory"
+  ]
+}

@@ -1,0 +1,2 @@
+'Erdos1045N6.certificate_threshold_lt_candidate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.natural_threshold_lt_candidate' depends on axioms: [propext, Classical.choice, Quot.sound]

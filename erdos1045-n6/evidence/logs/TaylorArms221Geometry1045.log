@@ -1,0 +1,3 @@
+'Erdos1045N6.arms221_certificate_mono_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.arms221_bound_of_ordered_good' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1045N6.arms221_bound_of_ordered_half_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
